@@ -11,20 +11,20 @@ body {
     align-items: center;
 }
 .card {
-    border: 1px solid black;
+    
     width: 85%;
     height: 85%;
     display: block;
     gap: 10px;
 }
 .header-p {
-    border: 1px solid red;
+
     width: 100%;
     height: 50%;
     display: flex;
 }
 .header {
-    border: 1px solid black;
+    
     height: 100%;
     width: 50%;
     display: block;
@@ -37,12 +37,12 @@ body {
     font-size: 15px;
     font-weight: 700;
     padding-right:10rem;
-    border: 1px solid black;
+    
     padding: none;
 }
 .paragraph {
     width: 70%;
-    border: 1px solid blue;
+    
     height: 50%;
     font-weight: 400;
     font-size: 15px;
@@ -53,11 +53,11 @@ body {
 }
 .rating{
     width: 50%;
-    border: 2px solid blue;
+    
     display: block;
 }
 .contain {
-    border: 1px solid red;
+    
     border-radius: 5px;
     display: flex;
     height: 50%;
@@ -68,20 +68,20 @@ body {
     background-color: hsl(300, 24%, 96%);
 }
 .star {
-    border: 1px solid black;
+    
     height: 30%;
     display: flex;
     align-items: center;
 
 }
 .star-component {
-    border: 1px solid black;
+    
 }
 .review {
     color: hsl(300, 43%, 22%);
     font-size: 15px;
     font-family: 'League Spartan', sans-serif;
-    border: 1px solid black;
+
     font-weight: 700;
 }
 .padd2 {
@@ -92,41 +92,45 @@ body {
     padding-left: 7rem;
 }
 .proof {
-    border: 2px dotted black;
+    
     height: 50%;
     display: flex;
     gap: 3rem;
 }
 .proof-card {
-    border: 1px solid black;
+    
     width: 27%;
     height: 80%;
     display: block;
 }
 .testimony {
-    border: 1px solid blue;
+
     height: 50%;
     display: flex;
-    gap: 5rem;
+    
 }
-.proof {
+.divide {
+    
+    
+    width: 33.33%;
+}
+.review-card {
+    
+    width: 70%;
+    height: 80%;
     background-color: hsl(300, 43%, 22%);
-    border: 1px solid black;
-    width: 25%;
-    height: 70%;
     border-radius: 10px;
     padding: 20px;
     display: block;
 }
 .image-name {
-    border: 1px solid black;
-    height: 40%;
-    gap: 10px;
+    
+    height: 30%;
     display: flex;
-    align-items: center;
+    gap: 5px;
 }
 .image {
-    border: 1px solid black;
+    
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -137,42 +141,59 @@ body {
     border-radius: 50%;
 }
 .name {
-    height: 85%;
-    width: 78%;
-    padding-top: 5px;
+    
+    width: 80%;
     display: block;
-    border: 1px solid black;
-}
-.name h1 {
-    text-align: start;
     font-family: 'League Spartan', sans-serif;
-    font-size: 15px;
-    font-weight: 700;
-    color: hsl(0, 0%, 100%);
+    font-size: 15px;    
+    text-align: start;   
+    font-weight: 500;
+    color: hsl(0, 0%, 100%); 
 }
-.name h1 .status {
+.name h1 div{
+    color: hsl(333, 80%, 67%);
+    margin-top: -5px;
     font-size: 15px;
     font-weight: 400;
-    color: hsl(333, 80%, 67%);
 }
- 
-.review {
-    color: hsl(0, 0%, 100%);
-    font-size: 12.4px;
-    padding-right: 10px;
-    border: 1px solid black;
-    height: 60%;
-    text-align: start;
+.comment {
     display: flex;
     align-items: center;
     font-family: 'League Spartan', sans-serif;
+    
+    height: 70%;
+    text-align: start;
+    font-size: 15px;
+    
+    color: hsl(0, 0%, 100%);
 }
 
-
-
-
-
-
+.move1 {
+    padding-top:20px;
+}
+.move2 {
+    padding-top: 30px;
+}
+@media(max-width:1360px) {
+    body {
+        height:100%;
+    }
+    .card{
+        width: 19.3rem;
+        height: 35rem;
+        border: 2px solid red;
+    }
+    .header-p {
+        height: 25%;
+        border: 1px solid blue;
+        display: block;
+    }
+    .header {
+        border: 1px solid red;
+        
+    }
+    
+}
 
 
 
